@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <title>Commerce Fest</title>
+
+
+<script>
+    function scrollWin(){
+        document.querySelector('summary').scrollIntoView({behavior: 'smooth'});
+    }
+</script>
+
+
 <head>
     <link href="styles.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
     <div id="navdiv">
         <ul id="navbar">
-            <li class="nav">Home</li>
+            <li class="nav"><a href="index.html">Home</a></li>
             <li class="nav">Events</li>
             <li class="nav">Contact</li>
         </ul>
@@ -15,29 +26,33 @@
     <div id="pixx">
         <div id="textstuff">
             <span style="font-size: 58px">Insceptra</span> <br>
-            <span style="font-size: 22px; font-family:sans-serif">The Commerce Fest</span><br>
-            <span style="font-size: 22px; font-family:sans-serif">NPS HSR</span><br>
+            <span style="font-size: 22px; font-family:'Glacial Indifference'">The Commerce Fest</span><br>
+            <span style="font-size: 22px; font-family:'Glacial Indifference'">NPS HSR</span><br>
+            <button type="button", onclick=scrollWin()><i class="fa fa-chevron-down"></i></button>
         </div>
     </div>
-    <div id="events">
-        Events
-        <div id="event1">
-            Event 1
-        </div>
-        <div id="event2">
-            Event 2
-        </div>
-        <div id="event3">
-            Event 3
-        </div>
-        <div id="event4">
-            Event 4
-        </div>
-        <div id="event5">
-            Event 5
-        </div>
-        <div id="event6">
-            Event 6
-        </div>
+
+    <div id="summary">
+        <br><br><br>
+        <h3>What?</h3>
+        This is the info/brief intro <br>
+        to the commerce fest <br>
+        some text some text <br>
+        <br><br><br>
+
+        <h3>Who?</h3>
+        You can contact us<br>
+        here & here (facebook) (twitter) <br>
+        <br><br><br>
+
+        <h3>Where?</h3>
+        Situated here (Maps api)
+        <br><br><br>
+
+    </div>
+
+    <div id="footer">
+        <i id="facebook-icon", class="fa fa-facebook", onclick="Javascript: window.location = 'https://facebook.com'"></i>
+        <i id="gplus-icon", class="fa fa-google-plus", onclick="Javascript: window.location = 'https://plus.google.com'"></i>
     </div>
 </body>

@@ -2,11 +2,16 @@
     margin: auto;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 body{
     background-color: #eeeeee;
     background-image: url("images/download.png"); 
     background-attachment: fixed;
     background-position: 0% 0%;
+    height: 100%;
 }
 
 #navbar {
@@ -14,15 +19,41 @@ body{
     display: inline block;
     color: #222;
     font-size: 22px;
+    font-family: 'Glacial Indifference';
     background-color: rgba(0, 0, 0, 0);
 }
 
 .nav {
     display: inline ;
+    text-decoration: none;
     color: #222;
-    padding: 5px;
+    padding: 8px;
+    margin: 0px;
     font-size: 18px;
+    transition: .5s ease;
 }
+
+.nav:hover {
+    color: #222;
+    background-color: rgba(16, 16, 16, 0.2);
+    border: 0px solid;
+    border-radius: 4px;
+    transition: .5s ease;
+}
+
+.nav:active {
+    color: #222;
+    background-color: rgba(5, 5, 5, 1);
+    border: 0px solid;
+    border-radius: 4px;
+    transition: .5s ease;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #222;
+}
+
 
 #pixx{
     width: 100%;
@@ -39,32 +70,19 @@ body{
     color: #222;
 }
 
-#events {
+#summary {
+   font-family: 'Glacial Indifference';
+   color: #222;
+   background-color: #fff;
+   text-align: center;
+   font-size: 32px;
+}
+
+#footer {
     color: #fff;
+    background-color: #222;
+    padding: 40px;
     text-align: center;
-    font-size: 40px;
-    background-color: #111112;
-    text-align: center;
-    padding: 50px 0px 0px 0px ;
-}
-
-#event1, #event2, #event3, #event4, #event5, #event6 {
-    width: 98%; 
-    margin: 60px 20px 20px 0px;
-    height: 400px;
-    padding: 10px;
-    text-align: center;
-    vertical-align: center;
-    background-position: 100% 100%;
-    background-attachment: fixed;
-    font-size: 32px;
-}
-
-#event1 {
-    background-image: url(images/oddish.png);
-    font-family: "serif";
-}
-
-#event2 {
-    background-image: url(images/gloom.png);
+    font-size: 26px;
+    font-family: 'Zefani Stencil';
 }

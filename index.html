@@ -36,7 +36,22 @@
 
         <span style="font-family: 'GlacialBold'">Where?</span><br>
         Situated here (Maps api)
-        <br><br><br>
+        <br><br>
+        <div id="googleMap" style="width:80%;height:400px;"></div>
+
+        <script>
+        function myMap() {
+              var myCenter = new google.maps.LatLng(12.916483, 77.643020);
+              var mapCanvas = document.getElementById("googleMap");
+              var mapOptions = {center: myCenter, zoom: 17};
+              var map = new google.maps.Map(mapCanvas, mapOptions);
+              var marker = new google.maps.Marker({position:myCenter});
+              marker.setMap(map);
+        }
+        </script>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfFxxMmG_oU4O693i1HviUHzjPh0cc6lk&callback=myMap"></script>
+        <br><br>
     </div>
     <div id="footer">
         <i id="facebook-icon", class="fa fa-facebook", onclick="Javascript: window.location = 'https://facebook.com'"></i>

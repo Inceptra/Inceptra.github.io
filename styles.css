@@ -6,6 +6,21 @@
     display: none;
 }
 
+@font-face {
+    font-family: 'Zefani Stencil';
+    src: url('fonts/ZefaniStencil(uppercase)-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Glacial';
+    src: url('fonts/GlacialIndifference-Regular.otf');
+}
+
+@font-face {
+    font-family: 'GlacialBold';
+    src: url('fonts/GlacialIndifference-Bold.otf');
+}
+
 body{
     background-color: #eeeeee;
     background-image: url("images/download.png"); 
@@ -15,12 +30,11 @@ body{
 }
 
 #navbar {
-    padding: 30px;
+    padding: 23px;
     display: inline block;
     color: #222;
     font-size: 22px;
-    font-family: 'Glacial Indifference';
-    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Glacial';
 }
 
 .nav {
@@ -34,16 +48,16 @@ body{
 }
 
 .nav:hover {
+    text-decoration: none;
     color: #222;
-    background-color: rgba(16, 16, 16, 0.2);
     border: 0px solid;
     border-radius: 4px;
     transition: .5s ease;
 }
 
 .nav:active {
-    color: #222;
-    background-color: rgba(5, 5, 5, 1);
+    text-decoration: none;
+    color: #fff;
     border: 0px solid;
     border-radius: 4px;
     transition: .5s ease;
@@ -51,13 +65,12 @@ body{
 
 a:link, a:visited {
     text-decoration: none;
-    color: #222;
 }
 
 
 #pixx{
     width: 100%;
-    height: 300px;
+    height: 275px;
     text-align: center;
     color: #222;
     padding-bottom: 400px;
@@ -71,7 +84,7 @@ a:link, a:visited {
 }
 
 #summary {
-   font-family: 'Glacial Indifference';
+   font-family: 'Glacial';
    color: #222;
    background-color: #fff;
    text-align: center;

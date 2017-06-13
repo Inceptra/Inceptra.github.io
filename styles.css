@@ -93,19 +93,19 @@ a:link, a:visited {
 }
 
 #eventtable {
-    border-spacing: 10px;
+    border-spacing: 40px;
     width: 100%;
-    height: 500px;
+    height: 1000px;
 }
 
 td {
     background-image: url(images/download_grey.png);
     padding: 10px;
     width: 30%;
-    height: 50%;
+    height: 30%;
     color: #fff;
     text-align: center;
-    transition: .35s linear;
+    transition: .25s ease;
 }
 
 td:hover {
@@ -121,13 +121,20 @@ td:hover {
     box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.8);
 }
 
-#footer > table {
-   font-family: 'Glacial';
-   border-spacing: 25px;
-   width: 100%;
+#footul {
+    display: block;
+    padding: 30px;
+    font-family: 'Glacial';
+    font-size: 22px;
 }
 
-{
-    width: 33%;
-    text-align: center;
+.foot {
+    display: inline;
+    color: #fff;
+    margin: 0px;
+    transition: .5s ease;
+}
+
+svg {
+    fill: #fff;
 }

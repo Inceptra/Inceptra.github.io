@@ -22,10 +22,11 @@
 }
 
 body{
-    background-color: #eeeeee;
-    background-image: url("images/download.png"); 
+    background-color: #ffffff;
+    background-image: url("images/dl.svg"); 
     background-attachment: fixed;
-    background-position: 0% 0%;
+	background-repeat: no-repeat;
+    background-position: 100% 0%;
     height: 100%;
 }
 

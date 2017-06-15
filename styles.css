@@ -21,19 +21,19 @@
     src: url('fonts/GlacialIndifference-Bold.otf');
 }
 
-body{
+body {
     background-color: #ffffff;
     background-image: url("images/dl.svg"); 
-    background-attachment: fixed;
 	background-repeat: no-repeat;
-    background-position: 100% 0%;
+    background-attachment: fixed;
+    background-position: 110% 0%;
     height: 100%;
 }
 
 #navbar {
     padding: 23px;
     display: inline block;
-    color: #222;
+    color: #353636;
     font-size: 22px;
     font-family: 'Glacial';
 }
@@ -41,7 +41,7 @@ body{
 .nav {
     display: inline ;
     text-decoration: none;
-    color: #222;
+    color: #353636;
     padding: 8px;
     margin: 0px;
     font-size: 18px;
@@ -50,7 +50,7 @@ body{
 
 .nav:hover {
     text-decoration: none;
-    color: #222;
+    color: #353636;
     border: 0px solid;
     border-radius: 4px;
     transition: .5s ease;
@@ -69,11 +69,11 @@ a:link, a:visited {
 }
 
 
-#pixx{
+#pixx {
     width: 100%;
     height: 275px;
     text-align: center;
-    color: #222;
+    color: #353636;
     padding-bottom: 400px;
 }
 
@@ -81,12 +81,12 @@ a:link, a:visited {
     padding: 200px;
     font-family: "Zefani Stencil";
     font-variant: caps;
-    color: #222;
+    color: #353636;
 }
 
 #summary {
    font-family: 'Glacial';
-   color: #222;
+   color: #353636;
    background-color: #fff;
    text-align: center;
    font-size: 32px;
@@ -94,16 +94,17 @@ a:link, a:visited {
 }
 
 #eventtable {
-    border-spacing: 40px;
+    border-spacing: 25px;
     width: 100%;
     height: 1000px;
 }
 
 td {
     background-image: url(images/download_grey.png);
+    background-attachment: fixed;
     padding: 10px;
     width: 30%;
-    height: 30%;
+    height: 33%;
     color: #fff;
     text-align: center;
     transition: .25s ease;
@@ -115,7 +116,7 @@ td:hover {
 
 #footer {
     color: #fff;
-    background-color: #222;
+    background-color: #353636;
     padding: 40px;
     text-align: center;
     font-size: 26px;

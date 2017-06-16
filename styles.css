@@ -33,7 +33,10 @@ body {
 #navbar {
     padding: 23px;
     display: inline block;
-    color: #353636;
+    color: #fff;
+    background-color: #353636;
+    position: fixed;
+    width: 100%;
     font-size: 22px;
     font-family: 'Glacial';
 }
@@ -41,7 +44,7 @@ body {
 .nav {
     display: inline ;
     text-decoration: none;
-    color: #353636;
+    color: #fff;
     padding: 8px;
     margin: 0px;
     font-size: 18px;
@@ -127,14 +130,19 @@ td:hover {
     display: block;
     padding: 30px;
     font-family: 'Glacial';
-    font-size: 22px;
+    font-size: 40px;
+    width: 50%;
+    display: inline;
 }
 
 .foot {
     display: inline;
+    text-decoration: none;
     color: #fff;
     margin: 0px;
     transition: .5s ease;
+    padding: 5px;
+    margin: 5px;
 }
 
 svg {

@@ -31,9 +31,13 @@ body {
 }
 
 #navbar {
-    padding: 23px;
+    padding: 22px;
     display: inline block;
-    color: #353636;
+    color: #fff;
+	background-color: #3949AB;
+	box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.4);
+	position: fixed;
+	width: 100%;
     font-size: 22px;
     font-family: 'Glacial';
 }
@@ -41,7 +45,7 @@ body {
 .nav {
     display: inline ;
     text-decoration: none;
-    color: #353636;
+    color: #fff;
     padding: 8px;
     margin: 0px;
     font-size: 18px;
@@ -50,7 +54,7 @@ body {
 
 .nav:hover {
     text-decoration: none;
-    color: #353636;
+    color: #fff;
     border: 0px solid;
     border-radius: 4px;
     transition: .5s ease;
@@ -117,7 +121,7 @@ td:hover {
 #footer {
     color: #fff;
     background-color: #353636;
-    padding: 40px;
+    padding: 22px;
     text-align: center;
     font-size: 26px;
     box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.8);
@@ -125,7 +129,7 @@ td:hover {
 
 #footul {
     display: block;
-    padding: 30px;
+    padding: 2px;
     font-family: 'Glacial';
     font-size: 22px;
 }

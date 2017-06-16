@@ -31,19 +31,22 @@ body {
 }
 
 #navbar {
+    text-decoration: none;
     padding: 23px;
     display: inline block;
     color: #fff;
     background-color: #353636;
     position: fixed;
+    z-index: 15;
     width: 100%;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.4);
     font-size: 22px;
     font-family: 'Glacial';
 }
 
 .nav {
-    display: inline ;
     text-decoration: none;
+    display: inline;
     color: #fff;
     padding: 8px;
     margin: 0px;
@@ -53,10 +56,10 @@ body {
 
 .nav:hover {
     text-decoration: none;
-    color: #353636;
+    color: #999;
     border: 0px solid;
     border-radius: 4px;
-    transition: .5s ease;
+    transition: .25s ease;
 }
 
 .nav:active {
@@ -69,6 +72,12 @@ body {
 
 a:link, a:visited {
     text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #999;
 }
 
 
@@ -103,7 +112,7 @@ a:link, a:visited {
 }
 
 td {
-    background-image: url(images/download_grey.png);
+    background-image: url(images/download.png);
     background-attachment: fixed;
     padding: 10px;
     width: 30%;
@@ -114,7 +123,8 @@ td {
 }
 
 td:hover {
-    background-image: url(images/download.png);
+    filter: opacity(0.5);
+    color: #222;
 }
 
 #footer {

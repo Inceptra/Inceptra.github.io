@@ -1,9 +1,31 @@
+:root {
+    --main-color: #353636;
+    --main-muted: #999999;
+    --green: #87be57;
+    --orange: #ebcb8b;
+    --red: #bf4752;
+    --cyan: #88c0d0;
+    --blue: #81A1C1;
+    --magenta: #b48ead;
+    --violet: #734473;
+    --yellow: #ebb342;
+    --foreground-light: #aaaaaa;
+    --white: #ffffff;
+}
+
 * {
     margin: auto; }
 
 ::-webkit-scrollbar {
     display: none;
 }
+
+body {
+    background-image: url(images/lelz.jpg);
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+}
+
 
 @font-face {
     font-family: 'Zefani Stencil';
@@ -20,20 +42,12 @@
     src: url('fonts/GlacialIndifference-Bold.otf');
 }
 
-body {
-    background-color: #ffffff;
-    background-image: url("images/dl.svg"); 
-	background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: 110% 0%;
-    height: 100%;
-}
-
 #navbar {
     text-decoration: none;
     padding: 23px;
+    background-color: rgba(0, 0, 0, 0.6);
     display: inline-block;
-    color: #222;
+    color: var(--main-color);
     z-index: 15;
     width: 100%;
     font-size: 22px;
@@ -42,8 +56,8 @@ body {
 
 .nav {
     display: inline-block;
-    color: #222;
-    padding: 10px;
+    color: var(--white);
+    padding: 0px 10px 0px 10px;
     margin: 0px;
     font-size: 18px;
     transition: .5s ease;
@@ -51,70 +65,27 @@ body {
 
 .nav:hover {
     text-decoration: none;
-    color: #999;
+    color: var(--main-muted);
     border: 0px solid;
     border-radius: 4px;
     transition: .25s ease;
 }
+
+.nav:active {
+    color: var(--yellow);
+}
+
 
 a:link, a:visited {
     text-decoration: none;
     display: inline-block;
-    color: #222;
+    color: var(--white);
+    transition: 0.25s ease;
 }
 
 a:hover {
     text-decoration: none;
-    color: #999;
-}
-
-
-#pixx {
-    width: 100%;
-    height: 275px;
-    text-align: center;
-    color: #353636;
-    padding-bottom: 400px;
-}
-
-#textstuff {
-    padding: 200px;
-    font-family: "Zefani Stencil";
-    font-variant: caps;
-    color: #353636;
-}
-
-#summary {
-   font-family: 'Glacial';
-   color: #353636;
-   background-color: #fff;
-   text-align: center;
-   font-size: 32px;
-   box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.4);
-}
-
-#eventtable {
-    border-spacing: 25px;
-    width: 100%;
-    height: 1500px;
-}
-
-td {
-    background-image: url(images/download.png);
-    background-attachment: fixed;
-    padding: 10px;
-    width: 50%;
-    height: 25%;
-    border: 0px solid;
-    border-radius: 4px;
-    color: #fff;
-    text-align: center;
-    transition: .25s ease;
-}
-
-td:hover {
-    filter: opacity(0.5);
-    color: #222;
+    color: var(--main-muted);
 }
 
 .tooltip {
@@ -129,8 +100,8 @@ td:hover {
     top: 100%;
     left: 50%;
     margin-left: -60px;
-    background-color: #222;
-    color: #fff;
+    background-color: var(--main-color);
+    color: var(--white);
     text-align: center;
     padding: 5px;
     border-radius: 4px;
@@ -148,7 +119,7 @@ td:hover {
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: transparent transparent #222 transparent;
+    border-color: transparent transparent var(--main-color) transparent;
 }
 
 .tooltip:hover .tooltiptext {
@@ -156,10 +127,35 @@ td:hover {
     opacity: 1;
 }
 
+#title {
+    font-size: 48px;
+    color: var(--white);
+    text-align: center;
+    font-family: 'Zefani Stencil';
+    padding: 25px 0px 25px 0px;
+}
+
+#summary {
+    font-size: 22px;
+    font-family: 'Glacial';
+    color: var(--white);
+    padding: 40px 200px 40px 200px; 
+    text-align: center;
+}
+
+#details {
+    font-size: 22px;
+    color: var(--white);
+    text-align: left;
+    padding: 40px 200px 40px 200px; 
+}
+
 #footer {
-    color: #fff;
-    background-color: #353636;
-    padding: 40px;
+    color: var(--white);
+    width: 100%;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 23px;
     text-align: center;
     font-size: 26px;
     box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.8);
@@ -175,15 +171,12 @@ td:hover {
 }
 
 .foot {
-    display: inline;
+    display: inline-block;
     text-decoration: none;
-    color: #fff;
+    color: var(--white);
     margin: 0px;
     transition: .5s ease;
     padding: 5px;
     margin: 5px;
 }
 
-svg {
-    fill: #fff;
-}

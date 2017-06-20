@@ -5,11 +5,15 @@
 </head>
 <script src="smooth-scroll-master/dist/js/smooth-scroll.js"></script>
 <body>
+    <div id="totop">
+        <a data-scroll href="#navdiv"><img src="icons/arrows/chevron-up.svg"></a>
+    </div>
     <div id="navdiv">
         <ul id="navbar">
             <li class="nav tooltip"><a href="https://google.com">Home</a><span class="tooltiptext">Go to Home</span></li>
-            <li class="nav tooltip"><a data-scroll href="#summary">Events</a><span class="tooltiptext">This is the events page</span></li>
-            <li class="nav tooltip">Contact<span class="tooltiptext">Contact us here</span></li>
+            <li class="nav tooltip"><a data-scroll href="#summary">Events</a><span class="tooltiptext">Show us your talent!</span></li>
+            <li class="nav tooltip"><a data-scroll href="#who">Who?</a><span class="tooltiptext">This is who we are</span></li>
+            <li class="nav tooltip"><a data-scroll href="#where">Where?</a><span class="tooltiptext">This is where we are</span></li>
         </ul>
     </div>
 
@@ -39,15 +43,15 @@
             </tr>
         </table>    
         <br><br><br>
-        <span style="font-family: 'GlacialBold'">Who?</span><br>
+        <span id="who" style="font-family: 'GlacialBold'">Who?</span><br>
         You can contact us<br>
         here & here (facebook) (twitter) 
         <br><br><br>
 
-        <span style="font-family: 'GlacialBold'">Where?</span><br>
+        <span id="where" style="font-family: 'GlacialBold'">Where?</span><br>
         <br>
         <div id="googleMap" style="width:100%; height:400px;"></div>
-
+<!--
         <script>
         function myMap() {
               var myCenter = new google.maps.LatLng(12.916483, 77.643020);
@@ -60,6 +64,7 @@
         </script>
 
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfFxxMmG_oU4O693i1HviUHzjPh0cc6lk&callback=myMap"></script>
+-->
         <br><br><br>
     </div>
     <div id="footer">
@@ -74,7 +79,7 @@
                 <a href="https://twitter.com"><img src="icons/logos/twitter.svg"></a><span class="tooltiptext">Twitter</span>
             </li>
             <li class="foot tooltip">
-                <a href="https://github.com/NerdyPepper"><img src="icons/logos/github.svg"></a><span class="tooltiptext">Github</span>
+                <a href="https://github.com/NerdyPepper/Commerce-Fest"><img src="icons/logos/github.svg"></a><span class="tooltiptext">Github</span>
             </li>
         </ul>
     </div>

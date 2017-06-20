@@ -3,11 +3,12 @@
 <head>
     <link href="styles.css" type="text/css" rel="stylesheet">
 </head>
+<script src="smooth-scroll-master/dist/js/smooth-scroll.js"></script>
 <body>
     <div id="navdiv">
         <ul id="navbar">
             <li class="nav tooltip"><a href="https://google.com">Home</a><span class="tooltiptext">Go to Home</span></li>
-            <li class="nav tooltip"><a href="#summary">Events</a><span class="tooltiptext">This is the events page</span></li>
+            <li class="nav tooltip"><a data-scroll href="#summary">Events</a><span class="tooltiptext">This is the events page</span></li>
             <li class="nav tooltip">Contact<span class="tooltiptext">Contact us here</span></li>
         </ul>
     </div>
@@ -19,23 +20,22 @@
             <span style="font-size: 22px; font-family:'Glacial'">Add • Commit • Push</span><br>
         </div>
     </div>
-
     <div id="summary">
-        <br><br><br>
+        <br>
         <span style="font-family: 'GlacialBold'">Events</span><br>
         <br>
         <table id="eventtable">
             <tr>
-                <td>Event1</td>
-                <td>Event2</td>
-                <td>Event3</td>
-                <td>Event4</td>
+                <td><div id="cell"><a href="event.html">Event1</a></div></td>
+                <td><div id="cell"><a href="event.html">Event2</a></div></td>
+                <td><div id="cell"><a href="event.html">Event3</a></div></td>
+                <td><div id="cell"><a href="event.html">Event4</a></div></td>
 			</tr>
             <tr>
-                <td>Event5</td>
-                <td>Event6</td>
-                <td>Event7</td>
-                <td>Event8</td>
+                <td><div id="cell"><a href="event.html">Event5</a></div></td>
+                <td><div id="cell"><a href="event.html">Event6</a></div></td>
+                <td><div id="cell"><a href="event.html">Event7</a></div></td>
+                <td><div id="cell"><a href="event.html">Event8</a></div></td>
             </tr>
         </table>    
         <br><br><br>
@@ -78,4 +78,7 @@
             </li>
         </ul>
     </div>
+<script>
+    smoothScroll.init();
+</script>
 </body>

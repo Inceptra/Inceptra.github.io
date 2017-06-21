@@ -1,3 +1,18 @@
+:root {
+    --main-color: #353636;
+    --main-muted: #999999;
+    --green: #87be57;
+    --orange: #ebcb8b;
+    --red: #bf4752;
+    --cyan: #88c0d0;
+    --blue: #81A1C1;
+    --magenta: #b48ead;
+    --violet: #734473;
+    --yellow: #ebb342;
+    --foreground-light: #aaaaaa;
+    --white: #ffffff;
+}
+
 * {
     margin: auto; }
 
@@ -21,7 +36,7 @@
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #fff;
     background-image: url("images/dl.svg"); 
 	background-repeat: no-repeat;
     background-attachment: fixed;
@@ -30,6 +45,7 @@ body {
 }
 
 #totop {
+	display: none;
     position: fixed;
     text-align: center;
     border: 2px solid;
@@ -44,21 +60,23 @@ body {
 }
 
 #navbar {
+	background-color: var(--main-color);
     text-decoration: none;
     padding: 23px;
     display: inline-block;
-    color: #222;
+    color: var(--white);
     z-index: 15;
     width: 100%;
     font-size: 22px;
     font-family: 'Glacial';
+	box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.6);
 }
 
 .nav {
     display: inline-block;
-    color: #222;
+    color: var(--white);
     padding: 10px;
-    margin: 0px;
+    margin-right: 0px;
     font-size: 18px;
     transition: .5s ease;
 }
@@ -75,12 +93,12 @@ a:link, a:visited {
     text-decoration: none;
     text-align: center;
     display: inline-block;
-    color: #222;
+    color: var(--white);
 }
 
 a:hover {
     text-decoration: none;
-    color: #000;
+    color: var(--main-muted);
 }
 
 

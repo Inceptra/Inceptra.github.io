@@ -39,6 +39,7 @@
     text-decoration: none;
     padding: 23px;
     background-color: var(--cyan);
+	text-align: right;
     display: inline-block;
     color: var(--main-color);
     z-index: 15;

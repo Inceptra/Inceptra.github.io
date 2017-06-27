@@ -192,6 +192,17 @@ td {
     opacity: 1;
 }
 
+#features {
+	width: 100%;
+}
+
+.feets {
+	display: inline-block;
+	font-family: 'Zefani Stencil';
+	font-size: 22px;
+	padding: 20px;
+}
+
 #footer {
     color: #fff;
     background-color: #353636;

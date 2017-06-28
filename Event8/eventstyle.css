@@ -35,36 +35,13 @@
     src: url('fonts/GlacialIndifference-Bold.otf');
 }
 
-body {
-    background-color: #fff;
-    background-image: url("images/dl.svg"); 
-	background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: 110% 0%;
-    height: 100%;
-}
-
-#totop {
-	display: none;
-    position: fixed;
-    text-align: center;
-    border: 2px solid;
-    border-color: #FF5722;
-    background-color: #FF5722;
-    border-radius: 25px;
-    width: 30px;
-    height: 30px;
-    bottom: 10px;
-    right: 10px;
-    z-index: 1200;
-}
-
 #navbar {
-	background-color: var(--main-color);
     text-decoration: none;
     padding: 23px;
+    background-color: var(--cyan);
+	text-align: right;
     display: inline-block;
-    color: var(--white);
+    color: var(--main-color);
     z-index: 15;
     width: 100%;
     font-size: 22px;
@@ -75,85 +52,35 @@ body {
 .nav {
     display: inline-block;
     color: var(--white);
-    padding: 10px;
-    margin-right: 0px;
+    padding: 0px 10px 10px 10px;
+    margin: 0px;
     font-size: 18px;
     transition: .5s ease;
 }
 
 .nav:hover {
     text-decoration: none;
-    color: #999;
+    color: var(--main-muted);
     border: 0px solid;
     border-radius: 4px;
     transition: .25s ease;
 }
 
+.nav:active {
+    color: var(--yellow);
+}
+
+
 a:link, a:visited {
     text-decoration: none;
-    text-align: center;
     display: inline-block;
     color: var(--white);
+    transition: 0.25s ease;
 }
 
 a:hover {
     text-decoration: none;
     color: var(--main-muted);
-}
-
-
-#pixx {
-    width: 100%;
-    height: 275px;
-    text-align: center;
-    color: #353636;
-    padding-bottom: 400px;
-}
-
-#textstuff {
-    padding: 200px;
-    font-family: "Zefani Stencil";
-    font-variant: caps;
-    color: #353636;
-}
-
-#summary {
-   font-family: 'Glacial';
-   color: #353636;
-   background-image: url("images/dldl.png");
-   background-attachment: fixed;
-   background-repeat: no-repeat;
-   background-size: 1366px 768px;
-   text-align: center;
-   font-size: 32px;
-   box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.4);
-}
-
-#eventtable {
-    border-spacing: 5px;
-    width: 100%;
-    height: 500px;
-}
-
-td {
-    width: 25%;
-    height: 50%;
-    border: 0px solid;
-    border-radius: 4px;
-    color: #fff;
-    text-align: center;
-}
-
-#cell {
-    height: 100%;
-    text-align: center;
-    padding: 80px 20px 0px 20px;
-    background-image: url("images/download.png");
-    transition: 0.25s ease;
-}
-
-#cell:hover {
-    filter: opacity(0.6);
 }
 
 .tooltip {
@@ -168,8 +95,8 @@ td {
     top: 100%;
     left: 50%;
     margin-left: -60px;
-    background-color: #222;
-    color: #fff;
+    background-color: var(--main-color);
+    color: var(--white);
     text-align: center;
     padding: 5px;
     border-radius: 4px;
@@ -187,7 +114,7 @@ td {
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: transparent transparent #222 transparent;
+    border-color: transparent transparent var(--main-color) transparent;
 }
 
 .tooltip:hover .tooltiptext {
@@ -195,21 +122,54 @@ td {
     opacity: 1;
 }
 
-#features {
-	width: 100%;
+#pixx {
+    width: 100%;
+    text-align: center center;
+    padding-bottom: 400px;
+    height: 275px;
+    background-image: url(images/dl.svg);
+    background-position: 110% 0%;
+    background-repeat: no-repeat;
 }
 
-.feets {
-	display: inline-block;
-	font-family: 'Zefani Stencil';
-	font-size: 22px;
-	padding: 20px;
+#title {
+    font-size: 48px;
+    color: var(--main-color);
+    text-align: center;
+    font-family: 'Zefani Stencil';
+    padding: 250px 0px 25px 0px;
+}
+
+#down {
+    text-align: center;
+    position: absolute;
+    top: 90%;
+    right: 50%;
+
+}
+
+#summary {
+    font-size: 22px;
+    font-family: 'Glacial';
+    color: var(--main-color);
+    padding: 40px 200px 40px 200px; 
+    text-align: center;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.6);
+}
+
+#details {
+    font-size: 22px;
+    color: var(--main-color);
+    text-align: center;
+    padding: 40px 200px 40px 200px; 
 }
 
 #footer {
-    color: #fff;
-    background-color: #353636;
-    padding: 40px;
+    color: var(--white);
+    width: 100%;
+    position: relative;
+    background-color: var(--cyan);
+    padding: 23px;
     text-align: center;
     font-size: 26px;
     box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.8);
@@ -225,15 +185,12 @@ td {
 }
 
 .foot {
-    display: inline;
+    display: inline-block;
     text-decoration: none;
-    color: #fff;
+    color: var(--white);
     margin: 0px;
     transition: .5s ease;
     padding: 5px;
     margin: 5px;
 }
 
-svg {
-    fill: #fff;
-}

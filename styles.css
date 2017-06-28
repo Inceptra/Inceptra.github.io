@@ -36,6 +36,11 @@
     src: url('fonts/GlacialIndifference-Bold.otf');
 }
 
+@font-face {
+    font-family: 'Cookie';
+    src: url('fonts/Cookie-Regular.ttf');
+}
+
 body {
     background-color: #fff;
     background-image: url("images/dl.svg"); 
@@ -70,12 +75,16 @@ body {
 a:link, a:visited {
     text-decoration: none;
     text-align: center;
-    display: block;
+    display: inline-block;
     color: var(--white);
 }
 
 a:hover {
-    color: var(--main-muted);
+    color: var(--black);
+}
+
+a:active {
+    color: var(--green)
 }
 
 
@@ -99,7 +108,7 @@ a:hover {
    color: #353636;
    background-image: url("images/dldl.png");
    background-attachment: fixed;
-   background-repeat: no-repeat;
+   background-repeat: 4o-repeat;
    background-size: 1366px 768px;
    text-align: center;
    font-size: 32px;
@@ -124,6 +133,7 @@ td {
 .cell {
     cursor: pointer;
     height: 100%;
+    font-family: 'Zefani Stencil';
     color: var(--white);
     text-align: center;
     padding: 80px 20px 0px 20px;

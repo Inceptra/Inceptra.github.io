@@ -22,17 +22,17 @@
 
 @font-face {
     font-family: 'Zefani Stencil';
-    src: url('fonts/ZefaniStencil(uppercase)-Regular.otf');
+    src: url('../fonts/ZefaniStencil(uppercase)-Regular.otf');
 }
 
 @font-face {
     font-family: 'Glacial';
-    src: url('fonts/GlacialIndifference-Regular.otf');
+    src: url('../fonts/GlacialIndifference-Regular.otf');
 }
 
 @font-face {
     font-family: 'GlacialBold';
-    src: url('fonts/GlacialIndifference-Bold.otf');
+    src: url('../fonts/GlacialIndifference-Bold.otf');
 }
 
 #navbar {

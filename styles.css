@@ -80,13 +80,8 @@ a:link, a:visited {
 }
 
 a:hover {
-    color: var(--black);
+    color: var(--main-muted);
 }
-
-a:active {
-    color: var(--green)
-}
-
 
 #pixx {
     width: 100%;

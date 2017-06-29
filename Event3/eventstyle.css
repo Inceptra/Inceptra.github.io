@@ -126,6 +126,7 @@ a:hover {
 #pixx {
     width: 100%;
     text-align: center center;
+    padding-top: 60px;
     padding-bottom: 400px;
     height: 275px;
     background-size: cover;
@@ -133,13 +134,12 @@ a:hover {
     background-repeat: no-repeat;
 }
 
-
 #title {
     font-size: 48px;
     color: var(--main-color);
     text-align: center;
     font-family: 'Zefani Stencil';
-    padding: 50px 0px 150px 0px;
+    padding: 0px 0px 150px 0px;
 }
 
 #down {

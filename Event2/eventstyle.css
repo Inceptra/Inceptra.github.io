@@ -132,6 +132,10 @@ a:hover {
     background-position: 110% 0%;
     background-repeat: no-repeat;
 }
+#img {
+    max-width: 100%;
+    height: auto;
+}	
 
 
 #title {

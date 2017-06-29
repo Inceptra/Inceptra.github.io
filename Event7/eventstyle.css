@@ -128,8 +128,8 @@ a:hover {
     text-align: center center;
     padding-bottom: 400px;
     height: 275px;
-    background-image: url(images/dl.svg);
-    background-position: 110% 0%;
+    background-size: cover;
+    background-position: 0% 0%;
     background-repeat: no-repeat;
 }
 

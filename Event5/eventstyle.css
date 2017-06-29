@@ -4,7 +4,7 @@
     --green: #87be57;
     --orange: #ebcb8b;
     --red: #bf4752;
-    --cyan: #88c0d0;
+    --cyan: #009988;
     --blue: #81A1C1;
     --magenta: #b48ead;
     --violet: #734473;
@@ -36,10 +36,15 @@
     src: url('../fonts/GlacialIndifference-Bold.otf');
 }
 
+@font-face {
+	font-family: 'GlacialIta';
+	src: url("../fonts/GlacialIndifference-Italic.otf")
+}
+
 #navbar {
     text-decoration: none;
     padding: 23px;
-    background-color: var(--blue);
+    background-color: var(--cyan);
 	text-align: right;
     display: inline-block;
     color: var(--main-color);
@@ -169,7 +174,7 @@ a:hover {
     color: var(--white);
     width: 100%;
     position: relative;
-    background-color: var(--blue);
+    background-color: var(--cyan);
     padding: 23px;
     text-align: center;
     font-size: 26px;

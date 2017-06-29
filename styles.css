@@ -47,7 +47,7 @@ body {
     background-image: url("images/dl.png"); 
 	background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 110% 0%;
+    background-position: 100% 0%;
     height: 100%;
 }
 
@@ -58,7 +58,7 @@ body {
     display: inline-block;
     color: var(--white);
     z-index: 15;
-    width: 100%;
+    width: 97.6%;
     font-size: 22px;
     font-family: 'Glacial';
 	box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.6);

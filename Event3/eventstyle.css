@@ -11,6 +11,7 @@
     --yellow: #ebb342;
     --foreground-light: #aaaaaa;
     --white: #ffffff;
+    --black: #222;
 }
 
 * {
@@ -38,7 +39,7 @@
 #navbar {
     text-decoration: none;
     padding: 23px;
-    background-color: var(--cyan);
+    background-color: var(--orange);
 	text-align: right;
     display: inline-block;
     color: var(--main-color);
@@ -60,7 +61,7 @@
 
 .nav:hover {
     text-decoration: none;
-    color: var(--main-muted);
+    color: var(--black);
     border: 0px solid;
     border-radius: 4px;
     transition: .25s ease;
@@ -80,7 +81,7 @@ a:link, a:visited {
 
 a:hover {
     text-decoration: none;
-    color: var(--main-muted);
+    color: var(--black);
 }
 
 .tooltip {
@@ -160,15 +161,15 @@ a:hover {
 #details {
     font-size: 22px;
     color: var(--main-color);
-    text-align: center;
-    padding: 40px 200px 40px 200px; 
+    text-align: left;
+    padding: 40px 20px 40px 20px; 
 }
 
 #footer {
     color: var(--white);
     width: 100%;
     position: relative;
-    background-color: var(--cyan);
+    background-color: var(--orange);
     padding: 23px;
     text-align: center;
     font-size: 26px;

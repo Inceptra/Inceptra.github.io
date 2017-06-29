@@ -1,14 +1,14 @@
 :root {
     --main-color: #353636;
     --main-muted: #999999;
-    --green: #87be57;
-    --orange: #ebcb8b;
+    --green: #4CAF50;
+    --orange: #FFC107;
     --red: #bf4752;
     --cyan: #88c0d0;
-    --blue: #81A1C1;
+    --blue: #2196F3;
     --magenta: #b48ead;
-    --violet: #734473;
-    --yellow: #ebb342;
+    --violet: #3F51B5;
+    --yellow: #FFEB3B;
     --foreground-light: #aaaaaa;
     --white: #ffffff;
     --black: #222;
@@ -39,7 +39,7 @@
 #navbar {
     text-decoration: none;
     padding: 23px;
-    background-color: var(--foreground-light);
+    background-color: var(--black);
 	text-align: right;
     display: inline-block;
     color: var(--main-color);
@@ -128,14 +128,15 @@ a:hover {
     text-align: center center;
     padding-bottom: 400px;
     height: 275px;
-    background-size: cover;
-    background-position: 0% 0%;
+	background-size: cover;
+    background-position: 110% 0%;
     background-repeat: no-repeat;
 }
 
+
 #title {
     font-size: 48px;
-    color: var(--main-color);
+    color: var(--foreground-light);
     text-align: center;
     font-family: 'Zefani Stencil';
     padding: 250px 0px 25px 0px;
@@ -169,7 +170,7 @@ a:hover {
     color: var(--white);
     width: 100%;
     position: relative;
-    background-color: var(--foreground-light);
+    background-color: var(--black);
     padding: 23px;
     text-align: center;
     font-size: 26px;

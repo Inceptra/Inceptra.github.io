@@ -1,14 +1,14 @@
 :root {
     --main-color: #353636;
     --main-muted: #999999;
-    --green: #87be57;
-    --orange: #ebcb8b;
+    --green: #4CAF50;
+    --orange: #FFC107;
     --red: #bf4752;
     --cyan: #009988;
-    --blue: #81A1C1;
+    --blue: #2196F3;
     --magenta: #b48ead;
-    --violet: #734473;
-    --yellow: #ebb342;
+    --violet: #3F51B5;
+    --yellow: #FFEB3B;
     --foreground-light: #aaaaaa;
     --white: #ffffff;
     --black: #222;
@@ -34,11 +34,6 @@
 @font-face {
     font-family: 'GlacialBold';
     src: url('../fonts/GlacialIndifference-Bold.otf');
-}
-
-@font-face {
-	font-family: 'GlacialIta';
-	src: url("../fonts/GlacialIndifference-Italic.otf")
 }
 
 #navbar {
@@ -137,6 +132,7 @@ a:hover {
     background-position: 110% 0%;
     background-repeat: no-repeat;
 }
+
 
 #title {
     font-size: 48px;

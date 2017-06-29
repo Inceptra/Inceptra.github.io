@@ -12,6 +12,7 @@
     --foreground-light: #aaaaaa;
     --white: #ffffff;
     --black: #222;
+	--jet: #000;
 }
 
 * {
@@ -138,7 +139,7 @@ td {
 
 .cell:hover {
     filter: opacity(0.6);
-    color: var(--black);
+    color: var(--jet);
 }
 
 .eventln:link, .eventln:visited {

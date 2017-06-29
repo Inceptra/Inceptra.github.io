@@ -238,7 +238,12 @@ td {
     padding: 5px;
     margin: 5px;
 }
-
+.floatleft {
+    float:left;
+}
+.floatright {
+    float:right;
+}
 svg {
     fill: #fff;
 }

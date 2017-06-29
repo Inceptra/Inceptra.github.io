@@ -39,7 +39,7 @@
 #navbar {
     text-decoration: none;
     padding: 23px;
-    background-color: var(--blue);
+    background-color: var(--orange);
 	text-align: right;
     display: inline-block;
     color: var(--main-color);
@@ -169,7 +169,7 @@ a:hover {
     color: var(--white);
     width: 100%;
     position: relative;
-    background-color: var(--blue);
+    background-color: var(--orange);
     padding: 23px;
     text-align: center;
     font-size: 26px;

@@ -126,7 +126,7 @@ a:hover {
 #pixx {
     width: 100%;
     text-align: center center;
-    padding-top: 60px;
+    padding-top: 40px;
     padding-bottom: 400px;
     height: 275px;
     background-size: cover;
@@ -139,7 +139,7 @@ a:hover {
     color: var(--main-color);
     text-align: center;
     font-family: 'Zefani Stencil';
-    padding: 0px 0px 150px 0px;
+    padding: 0px 0px 60px 0px;
 }
 
 #down {

@@ -147,6 +147,8 @@ a:hover {
     position: absolute;
 	padding-top: 50px;
     right: 50%;
+        bottom: 4%;
+
 }
 
 #summary {

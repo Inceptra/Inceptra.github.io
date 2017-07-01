@@ -3,7 +3,7 @@
     --main-muted: #999999;
     --green: #4CAF50;
     --orange: #FFC107;
-    --red: #bf4752;
+    --red: #B71C1C;
     --cyan: #88c0d0;
     --blue: #2196F3;
     --magenta: #b48ead;
@@ -44,7 +44,7 @@
     display: inline-block;
     color: var(--main-color);
     z-index: 15;
-    width: 97%;
+    width: 100%;
     font-size: 22px;
     font-family: 'Glacial';
 	box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.6);
@@ -155,6 +155,9 @@ a:hover {
     color: var(--main-color);
     padding: 40px 200px 40px 200px; 
     text-align: center;
+	background-image: url("../images/redlopolyblur.jpg");
+	background-attachment: fixed;
+	background-size: 1920px 1080px;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.6);
 }
 

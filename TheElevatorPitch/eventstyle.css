@@ -208,7 +208,7 @@ a:hover {
 .dropbtn {
     background-color: transparent;
     font-family: 'Glacial';
-    color: white;
+    color: var(--main-color);
     font-size: 22px;
     border: none;
     cursor: pointer;

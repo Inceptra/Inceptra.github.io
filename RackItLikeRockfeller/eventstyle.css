@@ -208,7 +208,7 @@ a:hover {
 .dropbtn {
     background-color: transparent;
     font-family: 'Glacial';
-    color: white;
+    color: var(--main-color);
     font-size: 22px;
     border: none;
     cursor: pointer;
@@ -223,7 +223,7 @@ a:hover {
     display: none;
     position: absolute;
     right: 0;
-    background-color: var(--white);
+    background-color: var(--black);
     min-width: 200px;
     border: 0px solid transparent;
     border-radius: 4px;

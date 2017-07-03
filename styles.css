@@ -62,7 +62,7 @@ body {
 #navbar {
 	background-color: var(--main-color);
     text-decoration: none;
-    padding: 23px;
+	padding: 23px;
     float: floatright;
 	display: block;
     color: var(--white);
@@ -70,6 +70,11 @@ body {
     font-size: 22px;
     font-family: 'Glacial';
 	
+}
+
+#what {
+	font-family: 'Glacial';
+	padding: 40px;
 }
 
 .nav {
@@ -84,11 +89,12 @@ a:link, a:visited {
     text-decoration: none;
     text-align: center;
     display: inline-block;
-    color: var(--white);
+    color: #808080;
+	transition: 0.25s ease;
 }
 
 a:hover {
-    color: var(--main-muted);
+    color: var(--cyan);
 }
 
 #pixx {

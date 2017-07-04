@@ -223,7 +223,7 @@ a:hover {
     display: none;
     position: absolute;
     right: 0;
-    background-color: var(--cyan);
+    background-color: var(--white);
     min-width: 200px;
     border: 0px solid transparent;
     border-radius: 4px;
@@ -239,7 +239,7 @@ a:hover {
 }
 
 .dropdown-content a:hover {
-    background-color: #e1e1e1;
+    background-color: var(--cyan);
 }
 
 .dropdown:hover .dropdown-content {

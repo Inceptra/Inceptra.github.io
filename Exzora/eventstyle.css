@@ -167,6 +167,15 @@ a:hover {
     padding: 40px 20px 40px 20px;
 }
 
+table, td, th {
+	border: 2px solid var(--main-color);
+	padding: 15px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
 #footer {
     color: var(--white);
     width: 100%;
@@ -221,7 +230,7 @@ a:hover {
     display: none;
     position: absolute;
     right: 0;
-    background-color: var(--blue);
+    background-color: var(--white);
     min-width: 200px;
     border: 0px solid transparent;
     border-radius: 4px;
@@ -237,7 +246,7 @@ a:hover {
 }
 
 .dropdown-content a:hover {
-    background-color: #e1e1e1;
+    background-color: var(--blue);
 }
 
 .dropdown:hover .dropdown-content {

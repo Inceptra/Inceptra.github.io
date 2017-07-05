@@ -250,3 +250,12 @@ a:hover {
     background-color: transparent;
 }
 
+table, td, th {
+	border: 2px solid var(--main-color);
+	padding: 15px;
+}
+
+table {
+	margin-top: 50px;
+	border-collapse: collapse;
+}

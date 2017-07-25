@@ -73,14 +73,12 @@
 
 
 a:link, a:visited {
-    text-decoration: none;
     display: inline-block;
     color: var(--black);
     transition: 0.25s ease;
 }
 
 a:hover {
-    text-decoration: none;
     color: var(--white);
 }
 
